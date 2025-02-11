@@ -17,4 +17,4 @@ rustc -l num -L . src/bin/num.rs
 
 ## Use build.rs
 
-Add `build.rs` and use `cc` build-dep to compile c code and then link it as a static file to our rust binary.
+Instead of manually compiling and linking we can add `build.rs` and use `cc` build-dep to compile c code and then link it as a static file to our rust binary.
