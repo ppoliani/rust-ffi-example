@@ -17,3 +17,4 @@ codegen-units = 1
 cc = "1.0"
 
 [dependencies]
+hex = "0.4.3"
